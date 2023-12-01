@@ -7,11 +7,11 @@ const sumFirstAndLast = (val) => {
     : parseInt(numbers[0] + numbers[0]);
 }
 
-const Day1Pt1 = () => {
+const Day1Pt2 = () => {
   const input = getInput(1);
   const rows = Array.from(input.split("\r\n"));
   const total = rows.reduce((total, current) => total + sumFirstAndLast([...current]), 0);
   console.log(total);
 }
 
-export default Day1Pt1
+export default Day1Pt2

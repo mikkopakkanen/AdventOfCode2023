@@ -1,3 +1,9 @@
-const Day1Part1 = require('./1/1')
+import { Day1Pt1, Day1Pt2 } from "./1/index.js";
 
-Day1Part1()
+const Day1 = (part) => part === 1 ? Day1Pt1() : Day1Pt2()
+
+const main = () => {
+  Day1(1);
+}
+
+main();

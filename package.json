@@ -1,0 +1,20 @@
+{
+  "name": "adventofcode2023",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikkopakkanen/AdventOfCode2023.git"
+  },
+  "author": "Mikko Pakkanen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikkopakkanen/AdventOfCode2023/issues"
+  },
+  "homepage": "https://github.com/mikkopakkanen/AdventOfCode2023#readme"
+}
