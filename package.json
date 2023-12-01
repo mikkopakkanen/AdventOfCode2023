@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "day1": "node -e \"import('./index.js').then( module => module.Day1() )\""
   },
   "repository": {
     "type": "git",
