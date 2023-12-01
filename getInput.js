@@ -1,8 +1,8 @@
 const fs = require('fs');
 const getInput = (day, example = false) => {
   const file = example 
-    ? `./${day}/example_input.txt`
-    : `./${day}/input.txt`
+    ? `./${day}/input/example_input.txt`
+    : `./${day}/input/input.txt`
   return fs.readFileSync(file, 'utf8')
 }
 

@@ -1,4 +1,4 @@
-const getInput = require('../getInput.js')
+const getInput = require('../../getInput.js')
 
 const sumFirstAndLast = (val) => {
   const numbers = val.filter(v => Number.isInteger(parseInt(v)));
@@ -7,11 +7,11 @@ const sumFirstAndLast = (val) => {
     : parseInt(numbers[0] + numbers[0]);
 }
 
-const day1 = () => {
+const Day1Part1 = () => {
   const data = getInput(1);
   const rows = Array.from(data.split("\r\n"));
   const total = rows.reduce((total, current) => total + sumFirstAndLast([...current]), 0);
   console.log(total);
 }
 
-module.exports = day1
+module.exports = Day1Part1

@@ -1,3 +1,3 @@
-const day1 = require('./1')
+const Day1Part1 = require('./1/1')
 
-day1()
+Day1Part1()
