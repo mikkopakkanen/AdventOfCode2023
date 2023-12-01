@@ -1,4 +1,4 @@
-import { getInput } from '../../getInput.js'
+import { readInput } from '../../utils/readInput.js'
 
 const sumFirstAndLast = (val) => {
   const numbers = val.filter(v => Number.isInteger(parseInt(v)));
@@ -8,7 +8,7 @@ const sumFirstAndLast = (val) => {
 }
 
 const Day1Pt1 = () => {
-  const input = getInput(1);
+  const input = readInput(1);
   const rows = Array.from(input.split("\r\n"));
   const total = rows.reduce((total, current) => total + sumFirstAndLast([...current]), 0);
   console.log(total);
