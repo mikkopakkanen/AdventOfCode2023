@@ -7,7 +7,8 @@
   "scripts": {
     "day1.1": "node -e \"import('./index.js').then( module => module.Day1Pt1() )\"",
     "day1.2": "node -e \"import('./index.js').then( module => module.Day1Pt2() )\"",
-    "day2.1": "node -e \"import('./index.js').then( module => module.Day2Pt1() )\""
+    "day2.1": "node -e \"import('./index.js').then( module => module.Day2Pt1() )\"",
+    "day2.2": "node -e \"import('./index.js').then( module => module.Day2Pt2() )\""
   },
   "repository": {
     "type": "git",
