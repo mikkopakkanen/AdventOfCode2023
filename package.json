@@ -10,7 +10,9 @@
     "day2.1": "node -e \"import('./index.js').then( module => module.Day2Pt1() )\"",
     "day2.2": "node -e \"import('./index.js').then( module => module.Day2Pt2() )\"",
     "day3.1": "node -e \"import('./index.js').then( module => module.Day3Pt1() )\"",
-    "day3.2": "node -e \"import('./index.js').then( module => module.Day3Pt2() )\""
+    "day3.2": "node -e \"import('./index.js').then( module => module.Day3Pt2() )\"",
+    "day4.1": "node -e \"import('./index.js').then( module => module.Day4Pt1() )\"",
+    "day4.2": "node -e \"import('./index.js').then( module => module.Day4Pt2() )\""
   },
   "repository": {
     "type": "git",
